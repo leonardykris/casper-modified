@@ -633,7 +633,7 @@ body.nav-opened .nav {
     counter-reset: item;
 }
 
-.nav li:before {
+/*.nav li:before {
     display: block;
     float: right;
     padding-right: 4%;
@@ -644,7 +644,7 @@ body.nav-opened .nav {
     color: #B8B8B8;
     content: counter(item, lower-roman);
     counter-increment: item;
-}
+}*/
 .nav li {
     margin: 0;
 }
@@ -658,12 +658,12 @@ body.nav-opened .nav {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.nav li a:after {
+/*.nav li a:after {
     display: inline-block;
     content: " .......................................................";
     color: #ccc;
     margin-left: 5px;
-}
+}*/
 .nav .nav-current:before {
     color: #fff;
 }
@@ -957,7 +957,7 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
 }
 
