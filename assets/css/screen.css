@@ -767,6 +767,9 @@ body.nav-opened .nav {
 
 /* Appears in the top left corner of your home page */
 .blog-logo {
+    padding: 5px;
+    font-weight: 600;
+    color: #666;
     display: block;
     float: left;
     background: none !important; /* Makes sure there is never a background */
@@ -831,7 +834,7 @@ body.nav-opened .nav {
     color: #9EABB3;
 }
 .nav-closed .no-cover .menu-button:hover {
-    border-color: #555;
+    border-color: #666;
     color: #555;
 }
 
@@ -1784,6 +1787,8 @@ body:not(.post-template) .post-title {
 
     .blog-logo {
         padding: 5px;
+        font-weight: 600;
+        color: #666;
     }
 
     .blog-logo img {
