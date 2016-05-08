@@ -580,7 +580,7 @@ body.nav-opened .nav {
     font-size: 16px;
     font-weight: 100;
     text-transform: uppercase;
-    color: #fff;
+    color: #666;
 }
 
 .nav-close {
@@ -661,7 +661,7 @@ body.nav-opened .nav {
 .nav li a:after {
     display: inline-block;
     content: " .......................................................";
-    color: rgba(255,255,255,0.2);
+    color: #ccc;
     margin-left: 5px;
 }
 .nav .nav-current:before {
@@ -676,14 +676,14 @@ body.nav-opened .nav {
 
 .nav a:link,
 .nav a:visited {
-    color: #B8B8B8;
+    color: #666;
 }
 
 .nav li.nav-current a,
 .nav a:hover,
 .nav a:active,
 .nav a:focus {
-    color: #fff;
+    color: #222;
 }
 
 .subscribe-button {
