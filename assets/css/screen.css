@@ -197,11 +197,11 @@ body {
 }
 
 ::-moz-selection {
-    background: #f9d2dc;
+    background: #eee;
 }
 
 ::selection {
-    background: #f9d2dc;
+    background: #eee;
 }
 
 h1, h2, h3,
@@ -245,14 +245,12 @@ h6 {
 
 a {
     color: #222;
-    border-bottom: 2px solid #ddd;
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
 a:hover {
     /*color: #BA254D;*/
-    border-bottom: 2px solid #888;
 }
 
 p, ul, ol, dl {
@@ -1105,6 +1103,15 @@ body:not(.post-template) .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+}
+
+.post-content a {
+    border-bottom: 2px solid #ddd;
+    transition: all 0.5s ease;
+}
+
+.post-content a:hover {
+    border-bottom: 2px solid #888;
 }
 
 .footnotes {
