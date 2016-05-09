@@ -1056,8 +1056,8 @@ body:not(.post-template) .post-title {
 
 .post-template .post-title {
     margin-bottom: 0;
-    font-size: 3.6rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 600;
     color: #000;
 }
 
